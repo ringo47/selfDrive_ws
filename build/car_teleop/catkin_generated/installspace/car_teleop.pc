@@ -1,0 +1,8 @@
+prefix=/home/ringo/selfDrive_ws/install
+
+Name: car_teleop
+Description: Description of car_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ringo/selfDrive_ws/install/lib 
+Requires: 

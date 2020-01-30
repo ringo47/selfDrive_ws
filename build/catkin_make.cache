@@ -1,0 +1,2 @@
+car_teleop
+-DCATKIN_DEVEL_PREFIX=/home/ringo/selfDrive_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ringo/selfDrive_ws/install -G Unix Makefiles
