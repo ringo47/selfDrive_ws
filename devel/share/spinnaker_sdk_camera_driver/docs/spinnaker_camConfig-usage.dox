@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="spinnaker_sdk_camera_driver" pkg="spinnaker_sdk_camera_driver" type="spinnaker_sdk_camera_driver">
+  <param name="target_grey_value" type="double" value="50.0" />
+  <param name="exposure_time" type="int" value="0" />
+</node>
+\endverbatim
+

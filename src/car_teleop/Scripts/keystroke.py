@@ -8,7 +8,7 @@ from timeout_key import KeyPoller
 import time
 
 def controller():
-    system("rosnode kill /path_following")
+    #system("rosnode kill /path_following")
     pub = rospy.Publisher('key',Int8,queue_size=10) 
     rospy.init_node('keystroke',anonymous=True)
     c=UlcCmd()
@@ -16,23 +16,24 @@ def controller():
     c.clear=False
     c.enable_pedals=True
     c.enable_steering=True
-    c.linear_velocity=1.0
+    c.linear_velocity=0.5
     c.shift_from_park=False
     c.enable_shifting=False
-    c.lateral_accel=8.0
-    c.linear_accel=1.0
-    c.linear_decel=0.0
-    c.yaw_command=0.03
+    c.lateral_accel=0.5
+    c.linear_accel=0.1
+    c.linear_decel=5.0
+    c.yaw_command=0.00
     c.angular_accel=0.0
+    velocityStep=0.05
     c.steering_mode=0
     with KeyPoller() as keyPoller:
         while not rospy.is_shutdown():
             time.sleep(0.01)
             k=keyPoller.poll()
             if k=='w':
-                c.linear_velocity += 0.1
+                c.linear_velocity += velocityStep
             if k=='s':
-                c.linear_velocity -= 0.1
+                c.linear_velocity -= velocityStep
             if k=='d':
                 c.yaw_command -= 0.01
             if k=='a':

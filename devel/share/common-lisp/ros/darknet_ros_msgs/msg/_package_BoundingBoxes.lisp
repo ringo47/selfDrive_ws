@@ -1,1 +1,8 @@
-/home/ringo/selfDrive_ws/devel/.private/darknet_ros_msgs/share/common-lisp/ros/darknet_ros_msgs/msg/_package_BoundingBoxes.lisp
+(cl:in-package darknet_ros_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          IMAGE_HEADER-VAL
+          IMAGE_HEADER
+          BOUNDING_BOXES-VAL
+          BOUNDING_BOXES
+))

@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~target_grey_value" : \b [double] Set Target Grey Value min: 4.0, default: 50.0, max: 90.0
+- \b "~exposure_time" : \b [int] Set Exposure time (0:auto) min: 0, default: 0, max: 15000
+

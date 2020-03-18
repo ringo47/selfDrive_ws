@@ -1,10 +1,11 @@
 <launch>
-  <include file="$(find dataspeed_dbw_gazebo_demo)/launch/lane_keep_demo.launch"/>
+  <!--<include file="$(find dataspeed_dbw_gazebo_demo)/launch/lane_keep_demo.launch"/>-->
+  <include file="$(find dbw_polaris_can)/launch/dbw.launch"/>
   <node name="keystroke" pkg="car_teleop" type="keystroke.py" />
 </launch>
 
 <!--
-  
+  rostopic pub -r 10 /vehicle/enable std_msgs/Empty "{}"
   roslaunch dataspeed_dbw_gazebo_demo lane_keep_demo.launch
   rosrun car_controller keystroke.py
   <node pkg="tf" type="static_transform_publisher" name="kinect_base_link5" args="0 0 0 0 1.57 0 /frame1 /frame2 100"/> 
