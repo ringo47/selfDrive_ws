@@ -1,12 +1,22 @@
 <launch>
   <!--<include file="$(find dataspeed_dbw_gazebo_demo)/launch/lane_keep_demo.launch"/>-->
   <include file="$(find dbw_polaris_can)/launch/dbw.launch"/>
+  <node pkg="rostopic" type="rostopic" name="arbitrary_name" args="pub /vehicle/enable std_msgs/Empty" output="screen"/>
   <node name="keystroke" pkg="car_teleop" type="keystroke.py" />
+  <node pkg="car_teleop" type="echo_topic.sh" name="echo_test"/>
+  <node pkg="rqt_multiplot" type="rqt_multiplot" name="velocity_plot" args="--multiplot-config $(find car_teleop)/velocity_steering.xml"/>
 </launch>
 
 <!--
+  <node pkg="rqt_plot" type="rqt_plot" name="velocity_plot" args="/vehicle/ulc_cmd/linear_velocity /vehicle/ulc_cmd/yaw_command"/>
+  <node pkg="car_teleop" type="timed_roslaunch.sh" name="timed_echo_test" args="1 car_teleop output.launch"/>
+  <node pkg="car_teleop" type="echo_topic.sh" name="echo_test"/>
   rostopic pub -r 10 /vehicle/enable std_msgs/Empty "{}"
   roslaunch dataspeed_dbw_gazebo_demo lane_keep_demo.launch
   rosrun car_controller keystroke.py
-  <node pkg="tf" type="static_transform_publisher" name="kinect_base_link5" args="0 0 0 0 1.57 0 /frame1 /frame2 100"/> 
+  <node pkg="tf" type="static_transform_publisher" name="kinect_base_link5" args="0 0 0 0 1.57 0 /frame1 /frame2 100"/>
+  <node pkg="car_teleop" type="timed_roslaunch.sh" args="4 car_teleop output.launch" name="timed_roslaunch" launch-prefix="gnome-terminal -e"  output="screen" />
+  <node pkg="rostopic" type="rostopic" name="arbitrary_name1" args="echo /vehicle/ulc_cmd" launch-prefix="gnome-terminal -e" output="screen"/> 
+  <node pkg="lane_laser_scan" type="timed_roslaunch.sh" args="2 ira_laser_tools laserscan_multi_merger.launch" name="timed_roslaunch" output="screen" />
+  rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map global 10
 -->
