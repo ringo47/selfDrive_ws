@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="geotiff_map_file_path" default="$(find hector_geotiff)/maps"/>
+
+  <param name="/use_sim_time" value="true"/>
+
+  <node pkg="rviz" type="rviz" name="rviz"
+    args="-d $(find hector_slam_launch)/rviz_cfg/mapping_demo.rviz"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="map2laser" args="0.0 0.0 0.0 0.0 0.0 0.0 /world /map 10"/> 
+  <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="1.02, 0.0, 1.52 -0.01, 0.28, -0.02 /base_footprint velodyne 10"/>
+
+  <arg name="path" default="/home/ringo/workspace/IGVC_SelfDrive/Bag_Files-LiDAR/" />
+  <arg name="file_1" default="cheking_shadowdist_2020-03-13-17-49-29.bag" />
+  <arg name="file_2" default="Curve_intoout_2020-03-13-17-39-50.bag" />
+  <arg name="file_3" default="curve_outtoin_1_2020-03-13-17-43-28.bag" />
+  <arg name="file_4" default="Lanecheck_Standing_2020-03-13-17-48-38.bag" />
+  <arg name="file_5" default="manufacturingB_intoout_2020-03-13-17-44-15.bag" />
+  <arg name="file_6" default="manufacturingB_intoout_2_2020-03-13-17-45-08.bag" />
+  <arg name="file_7" default="manufacturingB_outoin_2020-03-13-17-46-21.bag" />
+  <arg name="file_8" default="sidewalk_intoout_2020-03-13-17-50-41.bag" />
+  <arg name="file_9" default="Sidewalk_reverse_2020-03-13-17-53-00.bag" />
+  <arg name="file_10" default="StraightLane_intoout_2020-03-13-17-42-06.bag" />
+  <arg name='filename' default="file_1"/>
+  <arg name="filename_true" default="$(eval arg(arg('filename')))"/>
+  <include file="$(find car_teleop)/launch/hector_mapping.launch"/>
+
+  <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch">
+    <arg name="trajectory_source_frame_name" value="scanmatcher_frame"/>
+    <arg name="map_file_path" value="$(arg geotiff_map_file_path)"/>
+  </include>
+
+  
+  <node pkg="rosbag" type="play" name="player" output="screen" args="--clock $(arg path)$(arg filename_true)"/>
+
+</launch>
+
+
+<!-- 
+  <node pkg="rosbag" type="play" name="player" output="screen" args="<->-clock $(arg path)$(arg file_2)"/>
+  roslaunch car_teleop hector_slam_test.launch filename:=file_4
+
+ -->

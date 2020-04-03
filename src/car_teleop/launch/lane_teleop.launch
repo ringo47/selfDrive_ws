@@ -18,5 +18,5 @@
   <node pkg="car_teleop" type="timed_roslaunch.sh" args="4 car_teleop output.launch" name="timed_roslaunch" launch-prefix="gnome-terminal -e"  output="screen" />
   <node pkg="rostopic" type="rostopic" name="arbitrary_name1" args="echo /vehicle/ulc_cmd" launch-prefix="gnome-terminal -e" output="screen"/> 
   <node pkg="lane_laser_scan" type="timed_roslaunch.sh" args="2 ira_laser_tools laserscan_multi_merger.launch" name="timed_roslaunch" output="screen" />
-  rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map global 10
+  rosrun tf static_transform_publisher 1.02, 0.0, 1.52 -0.01, 0.28, -0.02 map velodyne 10
 -->
