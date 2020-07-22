@@ -117,7 +117,7 @@ capture_nodelet_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: spinnaker_sdk_camera_driver/CMakeFiles/capture_nodelet.dir/src/subscriber_nodelet.cpp.o
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: spinnaker_sdk_camera_driver/CMakeFiles/capture_nodelet.dir/build.make
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /home/ringo/selfDrive_ws/devel/lib/libacquilib.so
-/home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /opt/ros/melodic/lib/libcv_bridge.so
+/home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /home/ringo/selfDrive_ws/devel/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
@@ -197,7 +197,6 @@ capture_nodelet_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /opt/ros/melodic/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libcapture_nodelet.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0

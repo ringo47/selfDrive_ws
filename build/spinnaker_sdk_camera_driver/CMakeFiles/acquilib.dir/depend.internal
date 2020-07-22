@@ -6,7 +6,7 @@ spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/serialization.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/camera.cpp
- /opt/ros/melodic/include/cv_bridge/cv_bridge.h
+ /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/image_transport/camera_publisher.h
  /opt/ros/melodic/include/image_transport/camera_subscriber.h
  /opt/ros/melodic/include/image_transport/exception.h
@@ -237,7 +237,7 @@ spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/serialization.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/capture.cpp
- /opt/ros/melodic/include/cv_bridge/cv_bridge.h
+ /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
  /opt/ros/melodic/include/dynamic_reconfigure/Config.h
  /opt/ros/melodic/include/dynamic_reconfigure/ConfigDescription.h

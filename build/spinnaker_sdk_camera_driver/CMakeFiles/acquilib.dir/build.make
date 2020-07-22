@@ -147,7 +147,7 @@ acquilib_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libcv_bridge.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /home/ringo/selfDrive_ws/devel/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
@@ -183,9 +183,7 @@ acquilib_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
@@ -204,21 +202,7 @@ acquilib_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libroscpp.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librosconsole.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librostime.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
@@ -234,6 +218,21 @@ acquilib_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librosconsole.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/librostime.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ringo/selfDrive_ws/devel/lib/libacquilib.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/ringo/selfDrive_ws/devel/lib/libacquilib.so: spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ringo/selfDrive_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/ringo/selfDrive_ws/devel/lib/libacquilib.so"
 	cd /home/ringo/selfDrive_ws/build/spinnaker_sdk_camera_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/acquilib.dir/link.txt --verbose=$(VERBOSE)

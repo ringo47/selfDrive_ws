@@ -156,7 +156,7 @@ spinnaker_sdk_camera_driver/camera.h
 spinnaker_sdk_camera_driver/capture.h
 /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/spinnaker_sdk_camera_driver/capture.h
 
-/opt/ros/melodic/include/cv_bridge/cv_bridge.h
+/home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
 -
 sensor_msgs/CompressedImage.h

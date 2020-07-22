@@ -10,13 +10,13 @@ spinnaker_sdk_camera_driver/CMakeFiles/capture_nodelet.dir/src/capture_nodelet.c
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/serialization.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/capture_nodelet.cpp
+ /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/class_loader/class_loader.hpp
  /opt/ros/melodic/include/class_loader/class_loader_core.hpp
  /opt/ros/melodic/include/class_loader/exceptions.hpp
  /opt/ros/melodic/include/class_loader/meta_object.hpp
  /opt/ros/melodic/include/class_loader/register_macro.hpp
  /opt/ros/melodic/include/class_loader/visibility_control.hpp
- /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
  /opt/ros/melodic/include/dynamic_reconfigure/Config.h
  /opt/ros/melodic/include/dynamic_reconfigure/ConfigDescription.h
@@ -268,13 +268,13 @@ spinnaker_sdk_camera_driver/CMakeFiles/capture_nodelet.dir/src/subscriber_nodele
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/subscriber_nodelet.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/subscriber_nodelet.cpp
+ /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/class_loader/class_loader.hpp
  /opt/ros/melodic/include/class_loader/class_loader_core.hpp
  /opt/ros/melodic/include/class_loader/exceptions.hpp
  /opt/ros/melodic/include/class_loader/meta_object.hpp
  /opt/ros/melodic/include/class_loader/register_macro.hpp
  /opt/ros/melodic/include/class_loader/visibility_control.hpp
- /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
  /opt/ros/melodic/include/dynamic_reconfigure/Config.h
  /opt/ros/melodic/include/dynamic_reconfigure/ConfigDescription.h

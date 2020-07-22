@@ -121,7 +121,7 @@ darknet_ros_object_detection__test_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libX11.so
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libXext.so
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: gtest/googlemock/gtest/libgtest.so
-/home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /opt/ros/melodic/lib/libcv_bridge.so
+/home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /home/ringo/selfDrive_ws/devel/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
@@ -155,6 +155,9 @@ darknet_ros_object_detection__test_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+/home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test: darknet_ros/darknet_ros/CMakeFiles/darknet_ros_object_detection-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ringo/selfDrive_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/ringo/selfDrive_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test"
 	cd /home/ringo/selfDrive_ws/build/darknet_ros/darknet_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/darknet_ros_object_detection-test.dir/link.txt --verbose=$(VERBOSE)

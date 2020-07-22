@@ -28,6 +28,7 @@ darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /home/ringo/selfDrive_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /home/ringo/selfDrive_ws/src/darknet_ros/darknet_ros/include/darknet_ros/image_interface.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /home/ringo/selfDrive_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp
+darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/actionlib/action_definition.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/actionlib/decl.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/actionlib/destruction_guard.h
@@ -47,7 +48,6 @@ darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/actionlib_msgs/GoalID.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/actionlib_msgs/GoalStatus.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/actionlib_msgs/GoalStatusArray.h
-darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/image_transport/camera_publisher.h
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: /opt/ros/melodic/include/image_transport/camera_subscriber.h

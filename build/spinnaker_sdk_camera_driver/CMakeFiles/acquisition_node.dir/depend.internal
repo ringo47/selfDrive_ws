@@ -9,7 +9,7 @@ spinnaker_sdk_camera_driver/CMakeFiles/acquisition_node.dir/src/acquisition_node
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/serialization.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
  /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/acquisition_node.cpp
- /opt/ros/melodic/include/cv_bridge/cv_bridge.h
+ /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
  /opt/ros/melodic/include/dynamic_reconfigure/Config.h
  /opt/ros/melodic/include/dynamic_reconfigure/ConfigDescription.h

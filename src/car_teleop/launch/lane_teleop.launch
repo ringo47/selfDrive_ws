@@ -1,7 +1,7 @@
 <launch>
-  <!--<include file="$(find dataspeed_dbw_gazebo_demo)/launch/lane_keep_demo.launch"/>-->
-  <include file="$(find dbw_polaris_can)/launch/dbw.launch"/>
-  <node pkg="rostopic" type="rostopic" name="arbitrary_name" args="pub /vehicle/enable std_msgs/Empty" output="screen"/>
+  <include file="$(find dataspeed_dbw_gazebo_demo)/launch/lane_keep_demo.launch"/>
+  <!--<include file="$(find dbw_polaris_can)/launch/dbw.launch"/>-->
+  <node pkg="rostopic" type="rostopic" name="enable_dbw_empty" args="pub /vehicle/enable std_msgs/Empty" output="screen"/>
   <node name="keystroke" pkg="car_teleop" type="keystroke.py" />
   <node pkg="car_teleop" type="echo_topic.sh" name="echo_test"/>
   <node pkg="rqt_multiplot" type="rqt_multiplot" name="velocity_plot" args="--multiplot-config $(find car_teleop)/velocity_steering.xml"/>

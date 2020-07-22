@@ -1,2 +1,2 @@
-car_teleop:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:spinnaker_sdk_camera_driver:velodyne/velodyne:velodyne/velodyne_driver:velodyne/velodyne_laserscan:velodyne/velodyne_msgs:velodyne/velodyne_pointcloud
+car_teleop:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:lane_follower:spinnaker_sdk_camera_driver:velodyne/velodyne:velodyne/velodyne_driver:velodyne/velodyne_laserscan:velodyne/velodyne_msgs:velodyne/velodyne_pointcloud:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
 -DCATKIN_DEVEL_PREFIX=/home/ringo/selfDrive_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ringo/selfDrive_ws/install -G Unix Makefiles

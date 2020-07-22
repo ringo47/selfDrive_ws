@@ -122,7 +122,7 @@ acquisition_node_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /opt/ros/melodic/lib/libcv_bridge.so
+/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /home/ringo/selfDrive_ws/devel/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
@@ -173,9 +173,7 @@ acquisition_node_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /opt/ros/melodic/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
@@ -203,6 +201,7 @@ acquisition_node_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /opt/ros/melodic/lib/libroscpp_serialization.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /opt/ros/melodic/lib/librostime.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/acquisition_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so

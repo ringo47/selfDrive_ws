@@ -8,7 +8,7 @@ spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_n
 spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/serialization.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/acquisition_nodelet.cpp
-spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
+spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/Config.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquisition_nodelet.dir/src/acquisition_nodelet.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/ConfigDescription.h

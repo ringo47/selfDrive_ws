@@ -13,7 +13,7 @@ GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 def stopper():
     state=rospy.Publisher("switchState",String, queue_size=10)
-    brake=rospy.Publisher("/vehicle/brake_cmd", Twist, queue_size=10)
+    brake=rospy.Publisher("/vehicle/brake_cmd", BrakeCmd, queue_size=10)
     rospy.init_node("estop_brake",anonymous=True)
     msg=BrakeCmd()
     rate = rospy.Rate(10)
@@ -30,7 +30,7 @@ def stopper():
             time.sleep(0.1)
             brake.publish(msg)
         state.publish(str(input_state))
-        rospy.loginfo(str(input_state))
+        #rospy.loginfo(str(input_state))
         rate.sleep()
 
 

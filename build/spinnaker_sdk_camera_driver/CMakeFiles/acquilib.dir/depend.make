@@ -5,7 +5,7 @@ spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /home/ring
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/serialization.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/camera.cpp
-spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
+spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /opt/ros/melodic/include/image_transport/camera_publisher.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /opt/ros/melodic/include/image_transport/camera_subscriber.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/camera.cpp.o: /opt/ros/melodic/include/image_transport/exception.h
@@ -236,7 +236,7 @@ spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /home/rin
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/serialization.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/capture.cpp
-spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
+spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/Config.h
 spinnaker_sdk_camera_driver/CMakeFiles/acquilib.dir/src/capture.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/ConfigDescription.h

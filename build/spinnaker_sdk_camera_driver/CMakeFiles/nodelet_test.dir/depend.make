@@ -3,7 +3,7 @@
 
 spinnaker_sdk_camera_driver/CMakeFiles/nodelet_test.dir/src/nodelet_test.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/std_include.h
 spinnaker_sdk_camera_driver/CMakeFiles/nodelet_test.dir/src/nodelet_test.cpp.o: /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/nodelet_test.cpp
-spinnaker_sdk_camera_driver/CMakeFiles/nodelet_test.dir/src/nodelet_test.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
+spinnaker_sdk_camera_driver/CMakeFiles/nodelet_test.dir/src/nodelet_test.cpp.o: /home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
 spinnaker_sdk_camera_driver/CMakeFiles/nodelet_test.dir/src/nodelet_test.cpp.o: /opt/ros/melodic/include/image_transport/camera_publisher.h
 spinnaker_sdk_camera_driver/CMakeFiles/nodelet_test.dir/src/nodelet_test.cpp.o: /opt/ros/melodic/include/image_transport/camera_subscriber.h
 spinnaker_sdk_camera_driver/CMakeFiles/nodelet_test.dir/src/nodelet_test.cpp.o: /opt/ros/melodic/include/image_transport/exception.h

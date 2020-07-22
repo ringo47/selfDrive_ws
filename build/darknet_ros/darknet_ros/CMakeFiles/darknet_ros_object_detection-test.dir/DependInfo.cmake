@@ -26,6 +26,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ringo/selfDrive_ws/src/darknet_ros/darknet/include"
   "/home/ringo/selfDrive_ws/src/darknet_ros/darknet_ros/include"
   "/home/ringo/selfDrive_ws/devel/include"
+  "/home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/local/cuda-10.2/include"
@@ -35,6 +36,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/ringo/selfDrive_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/ringo/selfDrive_ws/build/vision_opencv/cv_bridge/src/CMakeFiles/cv_bridge.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

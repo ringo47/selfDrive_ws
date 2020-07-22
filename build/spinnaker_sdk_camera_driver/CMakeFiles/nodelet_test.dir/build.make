@@ -96,7 +96,6 @@ nodelet_test_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /opt/ros/melodic/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
@@ -173,11 +172,11 @@ nodelet_test_EXTERNAL_OBJECTS =
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /home/ringo/selfDrive_ws/devel/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /opt/ros/melodic/lib/libcv_bridge.so
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/ringo/selfDrive_ws/devel/lib/spinnaker_sdk_camera_driver/nodelet_test: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0

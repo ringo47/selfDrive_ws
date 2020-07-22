@@ -178,6 +178,24 @@ pluginlib/class_list_macros.h
 spinnaker_sdk_camera_driver/subscriber_nodelet.h
 /home/ringo/selfDrive_ws/src/spinnaker_sdk_camera_driver/src/spinnaker_sdk_camera_driver/subscriber_nodelet.h
 
+/home/ringo/selfDrive_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
+sensor_msgs/Image.h
+-
+sensor_msgs/CompressedImage.h
+-
+sensor_msgs/image_encodings.h
+-
+ros/static_assert.h
+-
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/imgproc/types_c.h
+-
+stdexcept
+-
+
 /opt/ros/melodic/include/class_loader/class_loader.hpp
 boost/bind.hpp
 -
@@ -255,24 +273,6 @@ console_bridge/console.h
 /opt/ros/melodic/include/class_loader/console_bridge/console.h
 
 /opt/ros/melodic/include/class_loader/visibility_control.hpp
-
-/opt/ros/melodic/include/cv_bridge/cv_bridge.h
-sensor_msgs/Image.h
--
-sensor_msgs/CompressedImage.h
--
-sensor_msgs/image_encodings.h
--
-ros/static_assert.h
--
-opencv2/core/core.hpp
--
-opencv2/imgproc/imgproc.hpp
--
-opencv2/imgproc/types_c.h
--
-stdexcept
--
 
 /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
 string
