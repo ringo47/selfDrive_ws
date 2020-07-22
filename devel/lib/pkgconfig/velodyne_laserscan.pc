@@ -1,8 +1,0 @@
-prefix=/home/ringo/selfDrive_ws/devel
-
-Name: velodyne_laserscan
-Description: Description of velodyne_laserscan
-Version: 1.5.2
-Cflags: -I/home/ringo/selfDrive_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: sensor_msgs
