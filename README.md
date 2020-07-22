@@ -1,7 +1,7 @@
 # Overview
 ROS workspace for a Self-Driving Polaris GEM e2 golf cart using Dataspeed's drive-by-wire package.
 
-## Clone the repo and build package using `catkin_make`
+#### Clone the repo and build package using `catkin_make`
 
 
 ### Keyboard teleop for the simulator/cart
@@ -11,9 +11,10 @@ Use `roslaunch car_teleop lane_teleop` to launch the keyboard teleop node. Use W
 
 ### Lane Detection
 
-The lane keeping package uses OpenCV that detects while lanes and publishes Radius of Curvature and offset from middle of lane.<br/>
+The lane keeping package uses OpenCV that detects white/yellow lanes and publishes Radius of Curvature and offset from middle of lane. Uses HLS color space to threshold and histogram to classify lanes.<br/>
 `rosrun lane_follower lane_tracker.py` will launch the lane tracking node and publishes offset on /laneOffset topic.
 ![annotated](media/lanes1.png)
+![annotated](media/lanes3.png)
 ![annotated](media/lanes2.png)
 
 
