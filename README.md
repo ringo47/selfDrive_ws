@@ -14,7 +14,7 @@ The lane keeping package uses OpenCV that detects white/yellow lanes and publish
 
 ### Object Detection
 Has a neural network object detection package based on darkNET's yolo v3. Forked from [leggedrobotics](https://github.com/leggedrobotics/darknet_ros)<br/>
-`roslaunch darknet_ros/darknet_ros yolo_v3` will launch the object detection node. Current image topic is set to /usb_cam/image_raw and can be configured in config/ros.yaml
+`roslaunch darknet_ros/darknet_ros yolo_v3` will launch the object detection node. Current image topic is set to /usb_cam/image_raw and can be configured in [config/ros.yaml](src/darknet_ros/darknet_ros/config/ros.yaml)<br/>
 ![annotated](media/stop_sign.png)
 
 
