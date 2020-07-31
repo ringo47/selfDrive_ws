@@ -116,14 +116,15 @@ def combined_thresh(img):
 	combined = np.zeros_like(dir_bin)
 	#combined[((abs_bin == 1) | ((mag_bin == 1) & (dir_bin == 1))) & (hls_bin == 1)] = 1
 	combined[((abs_bin == 1) | ((mag_bin == 1) & (dir_bin == 1)))] = 1
-	combined[(combined == 1) & (hls_bin == 1)] = 1
+	combined = cv2.bitwise_and(combined,combined, mask = hls_bin)
+	#combined[(combined == 1) & (hls_bin == 1)] = 1
 
 	#print(abs_bin.dtype,mag_bin.dtype,dir_bin.dtype,combined.dtype, hls_bin.dtype)
 	return combined, abs_bin, mag_bin, dir_bin, hls_bin  # DEBUG datatype
 
 
 if __name__ == '__main__':
-	img_file = os.path.dirname(os.path.abspath(__file__))+'/saves/test2.jpg'
+	img_file = os.path.dirname(os.path.abspath(__file__))+'/saves/112_new.png'
 	img = mpimg.imread(img_file)
 	if img.dtype == 'float32':
 		img = np.array(img)*255

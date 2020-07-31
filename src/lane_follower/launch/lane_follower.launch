@@ -3,10 +3,15 @@
     <node pkg="rostopic" type="rostopic" name="enable_dbw_empty" args="pub /vehicle/enable std_msgs/Empty" output="screen"/>
     <node pkg="lane_follower" type="lane_tracker.py" name="cross_track_error"/>
     <node pkg="lane_follower" type="lane_follower_pid.py" name="lane_follow1"/>
-    <node pkg="car_teleop" type="echo_topic.sh" name="echo_test"/>
-    <node pkg="rqt_multiplot" type="rqt_multiplot" name="velocity_plot" args="--multiplot-config $(find car_teleop)/velocity_steering.xml"/>
+    <node pkg="rqt_plot" type="rqt_plot" name="offset_plot" args="/laneOffset/data /vehicle/ulc_cmd/yaw_command /vehicle/ulc_cmd/linear_velocity"/>
+
+    
 </launch>
 
 <!-- 
+    <node pkg="car_teleop" type="echo_topic.sh" name="echo_test"/>
+    <node pkg="rqt_multiplot" type="rqt_multiplot" name="velocity_plot" args="-multiplot-config $(find car_teleop)/velocity_steering.xml"/>
     rostopic pub -r 10 /vehicle/brake_cmd dbw_fca_msgs/BrakeCmd "{pedal_cmd_type: 2,pedal_cmd: 0.5,enable: 1,clear: 1,ignore: 1,count: 100}"
+        <node pkg="rqt_multiplot" type="rqt_multiplot" name="velocity_plot" args="-multiplot-config $(find lane_follower)/pid_controls.xml"/>
+
 -->

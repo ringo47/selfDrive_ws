@@ -16,6 +16,7 @@ def line_fit(binary_warped, viz=None):
 	# Assuming you have created a warped binary image called "binary_warped"
 	# Take a histogram of the bottom half of the image
 	histogram = np.sum(binary_warped[binary_warped.shape[0]//2:, :], axis=0)
+	#histogram = np.sum(binary_warped, axis=0)
 	# Create an output image to draw on and visualize the result
 	out_img = (np.dstack((binary_warped, binary_warped, binary_warped))*255).astype('uint8')
 	# Find the peak of the left and right halves of the histogram
@@ -84,7 +85,8 @@ def line_fit(binary_warped, viz=None):
 		plt.imshow(out_img)
 		plt.figure()
 		plt.plot(histogram)
-		plt.show()
+		plt.figure()
+
 	# Return a dict of relevant variables
 	ret = {}
 	ret['left_fit'] = left_fit
@@ -295,9 +297,9 @@ def final_viz(undist, left_fit, right_fit, m_inv, left_curve, right_curve, vehic
 	cv2.fillPoly(color_warp, np.int_([pts]), (0,255, 0))
 	# Warp the blank back to original image space using inverse perspective matrix (Minv)
 	newwarp = cv2.warpPerspective(color_warp, m_inv, (undist.shape[1], undist.shape[0]))
-	print(newwarp.shape)
-	print(undist.dtype)
-	print(newwarp.dtype)
+	#print(newwarp.shape)
+	#print(undist.dtype)
+	#print(newwarp.dtype)
 	# Combine the result with the original image
 	result = cv2.addWeighted(undist, 1, newwarp, 0.3, 0)
 

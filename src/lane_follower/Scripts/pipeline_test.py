@@ -27,7 +27,7 @@ for image_file in image_files:
 	# img = cv2.undistort(img, mtx, dist, None, mtx)
 	img2, abs_bin, mag_bin, dir_bin, hls_bin = combined_thresh(img)
 	img3, binary_unwarped, m, m_inv = perspective_transform(img2)
-
+	
 	ret = line_fit(img3, viz=1)
 	left_fit = ret['left_fit']
 	right_fit = ret['right_fit']
